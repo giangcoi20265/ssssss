@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1 updadsfdsst",
+      "price": 1000
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1z8l_wFlkRqbJ09QPv7U8W1ogSFsJkJeXxJUyNnH&s"
+    },
+    {
+      "name": "messi 30",
+      "price": "04",
+      "image": "ảnh",
+      "id": 3
+    },
+    {
+      "name": "giangcoi",
+      "price": "10000",
+      "id": 4
+    }
+  ]
+}

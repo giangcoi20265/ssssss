@@ -1,0 +1,10 @@
+
+<td>{{product.id}}</td>
+<td>{{product.name}}</td>
+<td>{{product.price}}</td>
+<td [width]="30"><img src="{{product.image}}" alt=""></td>
+
+<td></td>
+<td>
+    <button class="btn btn-success" (click)="itemRemove(product.id)">Remove</button>   
+</td>

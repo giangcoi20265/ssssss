@@ -1,0 +1,31 @@
+<div class="container">
+    <h1>quản lý sản phẩm</h1>
+    <input type="text" (input)="getValue($event)">
+    <div *ngIf="status">Tên sản phẩm:{{productsName}}</div>
+    <button class="btn btn-primary" (click)="changeStatus()">
+        Change Status
+      </button>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>name</th>
+                <th>price</th>
+                <th>img</th>
+            </tr>
+           
+        </thead>
+        <tbody>
+           <tr app-product-item
+           *ngFor="let product of products; let i = index "
+           [product]="product"
+           [index]="i"
+           (onRemove)="itemRemove(product.id)"
+           >
+
+           </tr>
+        
+        </tbody>
+    </table>
+</div>
+<hr>
